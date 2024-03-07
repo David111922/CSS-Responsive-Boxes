@@ -1,3 +1,5 @@
+
+@media (min-width: 600px) {
 *{
   box-sizing: border-box;
 }
@@ -5,9 +7,8 @@ body{
 
  background: blanchedalmond;
 
-/* width: 620px;  */
 }
-@media (min-width: 600px) {
+
 
 
 .container {
@@ -42,22 +43,23 @@ body{
 
 @media (max-width: 600px) {
  .container {
-   display: flex;
+   
    border: 3px solid;
-   flex-flow: nowrap column;
-   height: 98vh;
- }
- .a, .b,.c {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  
+ 
+   
    background-color: darkred;
    border: 3px solid;
    margin: 15px;
  }
 
- .a,
+ .a {
+  height: 15vh;
+  
+}
+
  .c {
+ 
    height: 15vh;
  }
  .b {
